@@ -1,0 +1,9 @@
+# GPU training / diffusion inference (Colab, Kaggle, or a CUDA machine)
+torch
+diffusers>=0.27
+transformers
+accelerate
+lpips        # image metric
+pystoi       # audio metric
+pesq         # audio metric
+# bitsandbytes   # optional: --adam8bit in the ControlNet trainer

@@ -1,0 +1,14 @@
+numpy
+scipy
+scikit-image
+pillow
+opencv-python-headless
+bm3d                 # Studio-quality image denoising
+soundfile            # WAV / FLAC / OGG reading
+fastapi
+uvicorn
+python-multipart
+pystoi               # optional: audio intelligibility metric used by the benchmark
+gradio>=6.0          # optional: only for the older restoration demo (app.py)
+onnxruntime        # optional: only for the AI denoising mode (then use the Install button in the app)
+# to TRAIN your own model (scripts/train_denoiser.py): pip install torch
